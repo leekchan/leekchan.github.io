@@ -27,12 +27,25 @@
     	* Billing system for printer managers
     	* Api backend for iOS/Android Application
     	* Api backend for windows client
+    * Log aggregation backend (Involvement : 100%)
+    	* A simple log aggretation backend built with Google App Engine, Python, webapp2
+    	* This backend receives and saves all logs generated from Add2paper mobile applications and windows client.
     * iOS & Android Application (Involvement : 50%)
     	* Hybrid application using HTML / CSS / Javascript and partial native codes
     * Windows Client with virtual printer driver (Involvement : 20%)
     	* V1.0 ~ V2.5.2 : C++
     	* V3.0 ~ present : C++, C#, <a href="https://code.google.com/p/chromiumembedded/" target="_blank">CEF</a>
-
+<br /><br />
+* Personal projects
+	* <a href="https://github.com/leekchan/phPy" target="_blank">phPy</a> - A simple way to call legacy PHP functions from Python (2012)
+	* KUSearch - A simple search engine for Korea university students (2009) 
+		* Crawler: Python, Beautifulsoap
+		* Indexer: Whoosh
+		* Frontend: Python, Django
+	* KUSearch lite - GAE version of KUSearch (2010)
+		* Google App Engine, Python, Webapp2, Datastore
+		* It builds a simple inverted indexe using n-gram tokenizer and GAE datastore
+	* <a href="https://code.google.com/p/liteweb-python-webframework/source/browse/#svn%2Ftrunk%2Fliteweb" target="_blank">liteweb</a> - A light weight Python ORM Web Framework (2010)
 
 ## Education
 * Korea University
@@ -44,3 +57,7 @@
 * Building a large scale web service with Python and Django
 * MySQL optimization techniques
 
+
+## Languages
+* Korean: Native
+* English: Professional working proficiency
