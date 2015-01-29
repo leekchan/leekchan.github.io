@@ -17,22 +17,22 @@ blockquote {
 }
 body {
     font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 18px;
     color: #737373;
     background-color: white;
     margin: 10px 13px 10px 13px;
 }
 table {
-  margin: 10px 0 15px 0;
-  border-collapse: collapse;
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
 }
-td,th {
-  border: 1px solid #ddd;
-  padding: 3px 10px;
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
 }
 th {
-  padding: 5px 10px;
+	padding: 5px 10px;	
 }
 
 a {
@@ -135,7 +135,7 @@ sup {
     line-height: 0;
 }
 * {
-  -webkit-print-color-adjust: exact;
+	-webkit-print-color-adjust: exact;
 }
 @media screen and (min-width: 914px) {
     body {
@@ -144,12 +144,12 @@ sup {
     }
 }
 @media print {
-  body,code,pre code,h1,h2,h3,h4,h5,h6 {
-    color: black;
-  }
-  table, pre {
-    page-break-inside: avoid;
-  }
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
 }
 </style>
 <title>이경찬 (Kyoung-chan Lee)</title>
@@ -181,24 +181,110 @@ sup {
 <h2>Links</h2>
 
 <ul>
-<li><a href="http://add2paper.github.io" target="_blank">Add2paper Engineering Blog</a></li>
-<li><a href="https://www.quora.com/Kyoung-Chan-Lee" target="_blank">Quora</a></li>
 <li><a href="https://github.com/leekchan/" target="_blank">Github</a></li>
 <li><a href="http://blog.leekchan.com/" target="_blank">Blog</a></li>
+<li><a href="http://add2paper.github.io/" target="_blank">Add2paper Engineering Blog</a></li>
 <li><a href="https://www.facebook.com/leekchan" target="_blank">Facebook</a></li>
-<li><a href="https://twitter.com/kyoungchanlee" target="_blank">Twitter</a></li>
 <li><a href="http://kr.linkedin.com/pub/kyoung-chan-lee/2a/499/34b" target="_blank">Linkedin</a></li>
+<li><a href="https://twitter.com/kyoungchanlee" target="_blank">Twitter</a></li>
 </ul>
 
 
-<h2>Projects</h2>
+<h2>Skills</h2>
 
 <ul>
-<li><a href="http://www.add2paper.com" target="_blank">Add2paper</a> - 대한민국 No.1 20대 대학생 타겟 미디어 (<a href="http://www.add2paper.com/pdf/" target="_blank">매체소개서</a> | <a href="http://add2paper.github.io/2013/04/17/Add2paper-Technology-Stack/" target="_blank">애드투페이퍼 서비스 구성 Stack 소개</a>)</li>
-<li><a href="https://github.com/leekchan/phpy" target="_blank">phPy</a> - A simple way to call legacy PHP functions from Python</li>
-<li><a href="http://code.google.com/p/liteweb-python-webframework/" target="_blank">liteweb</a> - 경량 Python ORM Web Framework</li>
-<li>KUSearch - Python으로 만든 경량 검색엔진. (Crawler - Indexer - Frontend 구조를 갖추고 있음. 현재 서비스 중단.)</li>
-<li>KUSearch lite - Google App Engine 기반 검색엔진 (가동 임시 중단)</li>
+<li>Languages: Python, Javascript, Java, C</li>
+<li>Web Frameworks: Django, Tornado</li>
+<li>Databases: MySQL, Memcached, Redis</li>
+<li>Web Servers: Nginx (with Gunicorn or uWSGI)</li>
+<li>Tools: Git, Mercurial</li>
+</ul>
+
+
+<h2>Experiences</h2>
+
+<ul>
+<li>CTO at <a href="http://www.add2paper.com" target="_blank">Add2paper</a> (May 2012 – Present)
+
+<ul>
+<li>Web application backend (Involvement : 100%)
+
+<ul>
+<li>Technology stack : Python, Django, MySQL, Nginx, Gunicorn, Memcached, Celery, Redis, Supervisor (<a href="http://add2paper.github.io/2013/04/17/Add2paper-Technology-Stack/" target="_blank">Detailed post in Korean</a>)</li>
+<li>Management system for advertisers</li>
+<li>Billing system for printer managers</li>
+<li>Api backend for iOS/Android Application</li>
+<li>Api backend for windows client</li>
+</ul>
+</li>
+<li>Log aggregation backend (Involvement : 100%)
+
+<ul>
+<li>A simple log aggretation backend built with Google App Engine, Python, webapp2</li>
+<li>This backend receives and saves all logs generated from Add2paper mobile applications and windows client.</li>
+</ul>
+</li>
+<li>iOS &amp; Android Application (Involvement : 50%)
+
+<ul>
+<li>Hybrid application using HTML / CSS / Javascript and partial native codes</li>
+</ul>
+</li>
+<li>Windows Client with virtual printer driver (Involvement : 20%)
+
+<ul>
+<li>V1.0 ~ V2.5.2 : C++</li>
+<li>V3.0 ~ present : C++, C#, <a href="https://code.google.com/p/chromiumembedded/" target="_blank">CEF</a>
+<br /><br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Personal projects
+
+<ul>
+<li><a href="https://github.com/leekchan/phPy" target="_blank">phPy</a> - A simple way to call legacy PHP functions from Python (2012)</li>
+<li>KUSearch - A simple search engine for Korea university students (2009)
+
+<ul>
+<li>Crawler: Python, Beautifulsoap</li>
+<li>Indexer: Whoosh</li>
+<li>Frontend: Python, Django</li>
+</ul>
+</li>
+<li>KUSearch lite - GAE version of KUSearch (2010)
+
+<ul>
+<li>Google App Engine, Python, Webapp2, Datastore</li>
+<li>It builds a simple inverted index using n-gram tokenizer and GAE datastore</li>
+</ul>
+</li>
+<li><a href="https://code.google.com/p/liteweb-python-webframework/source/browse/#svn%2Ftrunk%2Fliteweb" target="_blank">liteweb</a> - A light weight Python ORM Web Framework (2010)</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Education</h2>
+
+<ul>
+<li>BS in Electrical and Electronics Engineering, Korea University</li>
+</ul>
+
+
+<h2>Interests</h2>
+
+<ul>
+<li>Building a large scale web service with Python and Django</li>
+<li>MySQL optimization techniques</li>
+</ul>
+
+
+<h2>Languages</h2>
+
+<ul>
+<li>Korean: Native</li>
+<li>English: Working proficiency</li>
 </ul>
 
 </body>
