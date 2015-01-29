@@ -25,8 +25,8 @@
         * Technology stack : Python, Django, MySQL, Nginx, Gunicorn, Memcached, Celery, Redis, Supervisor (<a href="http://add2paper.github.io/2013/04/17/Add2paper-Technology-Stack/" target="_blank">Detailed post in Korean</a>)
     	* Management system for advertisers
     	* Billing system for printer managers
-    	* Api backend for iOS/Android Application
-    	* Api backend for windows client
+    	* API backend for iOS/Android Application
+    	* API backend for windows client
     * Log aggregation backend (Involvement : 100%)
     	* A simple log aggretation backend built with Google App Engine, Python, webapp2
     	* This backend receives and saves all logs generated from Add2paper mobile applications and windows client.
