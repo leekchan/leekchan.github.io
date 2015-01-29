@@ -44,12 +44,11 @@
 		* Frontend: Python, Django
 	* KUSearch lite - GAE version of KUSearch (2010)
 		* Google App Engine, Python, Webapp2, Datastore
-		* It builds a simple inverted indexe using n-gram tokenizer and GAE datastore
+		* It builds a simple inverted index using n-gram tokenizer and GAE datastore
 	* <a href="https://code.google.com/p/liteweb-python-webframework/source/browse/#svn%2Ftrunk%2Fliteweb" target="_blank">liteweb</a> - A light weight Python ORM Web Framework (2010)
 
 ## Education
-* Korea University
-* BS, Electrical and Electronics Engineering
+* BS in Electrical and Electronics Engineering, Korea University 
 
 
 
@@ -60,4 +59,4 @@
 
 ## Languages
 * Korean: Native
-* English: Professional working proficiency
+* English: Working proficiency
