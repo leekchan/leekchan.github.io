@@ -30,7 +30,7 @@
     * Log aggregation backend (Involvement : 100%)
     	* A simple log aggretation backend built with Google App Engine, Python, webapp2
     	* This backend receives and saves all logs generated from Add2paper mobile applications and windows client.
-    * iOS & Android Application (Involvement : 50%)
+    * <a href="http://www.add2paper.com/m_api/download/ios/" target="_blank">iOS</a> & <a href="http://www.add2paper.com/m_api/download/android/" target="_blank">Android</a> Application (Involvement : 50%)
     	* Hybrid application using HTML / CSS / Javascript and partial native codes
     * Windows Client with virtual printer driver (Involvement : 20%)
     	* V1.0 ~ V2.5.2 : C++
