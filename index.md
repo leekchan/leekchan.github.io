@@ -21,18 +21,18 @@
 
 ## Experiences
 * CTO at <a href="http://www.add2paper.com" target="_blank">Add2paper</a> (May 2012 – Present)
-    * Web application backend (Involvement : 100%)
+    * Web application backend 
         * Technology stack : Python, Django, MySQL, Nginx, Gunicorn, Memcached, Celery, Redis, Supervisor (<a href="http://add2paper.github.io/2013/04/17/Add2paper-Technology-Stack/" target="_blank">Detailed post in Korean</a>)
     	* Management system for advertisers
     	* Billing system for printer managers
     	* API backend for iOS/Android Application
     	* API backend for windows client
-    * Log aggregation backend (Involvement : 100%)
+    * Log aggregation backend 
     	* A simple log aggretation backend built with Google App Engine, Python, webapp2
     	* This backend receives and saves all logs generated from Add2paper mobile applications and windows client.
-    * <a href="http://www.add2paper.com/m_api/download/ios/" target="_blank">iOS</a> & <a href="http://www.add2paper.com/m_api/download/android/" target="_blank">Android</a> Application (Involvement : 50%)
+    * <a href="http://www.add2paper.com/m_api/download/ios/" target="_blank">iOS</a> & <a href="http://www.add2paper.com/m_api/download/android/" target="_blank">Android</a> Application 
     	* Hybrid application using HTML / CSS / Javascript and partial native codes
-    * Windows Client with virtual printer driver (Involvement : 20%)
+    * Windows Client with virtual printer driver 
     	* V1.0 ~ V2.5.2 : C++
     	* V3.0 ~ present : C++, C#, <a href="https://code.google.com/p/chromiumembedded/" target="_blank">CEF</a>
 <br /><br />
