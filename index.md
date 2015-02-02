@@ -32,7 +32,7 @@
     	* This backend receives and saves all logs generated from Add2paper mobile applications and windows client.
     * <a href="http://www.add2paper.com/m_api/download/ios/" target="_blank">iOS</a> & <a href="http://www.add2paper.com/m_api/download/android/" target="_blank">Android</a> Application 
     	* Hybrid application using HTML / CSS / Javascript and partial native codes
-    * Windows Client with virtual printer driver 
+    * Windows client with virtual printer driver 
     	* V1.0 ~ V2.5.2 : C++
     	* V3.0 ~ present : C++, C#, <a href="https://code.google.com/p/chromiumembedded/" target="_blank">CEF</a>
 <br /><br />
