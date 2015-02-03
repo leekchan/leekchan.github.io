@@ -40,7 +40,7 @@
 	* <a href="https://github.com/leekchan/phPy" target="_blank">phPy</a> - A simple way to call legacy PHP functions from Python (2012)
 	* KUSearch - A simple search engine for Korea university students (2009) 
 		* Crawler: Python, Beautifulsoap
-		* Indexer: Whoosh
+		* Indexer: Python, Whoosh
 		* Frontend: Python, Django
 	* KUSearch lite - GAE version of KUSearch (2010)
 		* Google App Engine, Python, Webapp2, Datastore
