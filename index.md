@@ -34,7 +34,7 @@
     	* Hybrid application using HTML / CSS / Javascript and partial native codes
     * Windows client with virtual printer driver 
     	* V1.0 ~ V2.5.2 : C++
-    	* V3.0 ~ present : C++, C#, <a href="https://code.google.com/p/chromiumembedded/" target="_blank">CEF</a>
+    	* V3.0 ~ present : C++, C#, .Net Framework 4, <a href="https://code.google.com/p/chromiumembedded/" target="_blank">CEF</a>
 <br /><br />
 * Personal projects
 	* <a href="https://github.com/leekchan/phPy" target="_blank">phPy</a> - A simple way to call legacy PHP functions from Python (2012)
