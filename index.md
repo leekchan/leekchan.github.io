@@ -13,7 +13,7 @@
 * <a href="https://twitter.com/kyoungchanlee" target="_blank">Twitter</a>
 
 ## Skills
-* Languages: Python, Javascript, Java, C
+* Languages: Python, Javascript, Java, C, C#
 * Web Frameworks: Django, Tornado
 * Databases: MySQL, Memcached, Redis
 * Web Servers: Nginx (with Gunicorn or uWSGI)
