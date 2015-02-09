@@ -33,7 +33,7 @@
     * <a href="http://www.add2paper.com/m_api/download/ios/" target="_blank">iOS</a> & <a href="http://www.add2paper.com/m_api/download/android/" target="_blank">Android</a> Application 
     	* Hybrid application using HTML / CSS / Javascript and partial native codes
     * Windows client with virtual printer driver 
-    	* V1.0 ~ V2.5.2 : C++
+    	* V1.0 ~ V2.5.2 : C++, MFC
     	* V3.0 ~ present : C++, C#, .Net Framework 4, <a href="https://code.google.com/p/chromiumembedded/" target="_blank">CEF</a>
 <br /><br />
 * Personal projects
