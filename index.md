@@ -1,6 +1,6 @@
 # 이경찬 (Kyoung-chan Lee)
 
-* Python Engineer
+* Software engineer
 * CTO at <a href="http://www.add2paper.com" target="_blank">Add2paper</a> (May 2012 – Present)
 
 ## Links
