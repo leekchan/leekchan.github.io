@@ -33,8 +33,9 @@
     * <a href="http://www.add2paper.com/m_api/download/ios/" target="_blank">iOS</a> & <a href="http://www.add2paper.com/m_api/download/android/" target="_blank">Android</a> Application 
     	* Hybrid application using HTML / CSS / Javascript and partial native codes
     * Windows client with virtual printer driver 
-    	* V1.0 ~ V2.5.2 : C++, MFC
-    	* V3.0 ~ present : C++, C#, .Net Framework 4, <a href="https://code.google.com/p/chromiumembedded/" target="_blank">CEF</a>
+    	* V1.0.0 ~ V2.5.2 : C++, MFC
+    	* V3.0.0 ~ V3.2.1 : C++, C#, .Net Framework 4, <a href="https://code.google.com/p/chromiumembedded/" target="_blank">CEF</a>
+        * V4.0.0 (Under development) : C++, C#, .Net Framework 4.5
 <br /><br />
 * Personal projects
 	* <a href="https://github.com/leekchan/phPy" target="_blank">phPy</a> - A simple way to call legacy PHP functions from Python (2012)
