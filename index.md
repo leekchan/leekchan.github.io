@@ -28,7 +28,7 @@
     	* API backend for iOS/Android Application
     	* API backend for windows client
     * Log aggregation backend 
-    	* A simple log aggretation backend built with Google App Engine, Python, webapp2
+    	* A simple log aggregation backend built with Google App Engine, Python, webapp2
     	* This backend receives and saves all logs generated from Add2paper mobile applications and windows client.
     * <a href="http://www.add2paper.com/m_api/download/ios/" target="_blank">iOS</a> & <a href="http://www.add2paper.com/m_api/download/android/" target="_blank">Android</a> Application 
     	* Hybrid application using HTML / CSS / Javascript and partial native codes
