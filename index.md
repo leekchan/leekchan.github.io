@@ -15,7 +15,7 @@
 ## Skills
 * Languages: Python, Javascript, Java, C, C++, C#
 * Web Frameworks: Django, Tornado
-* Databases: MySQL, Memcached, Redis
+* Databases: MySQL, Memcached, Redis, Couchbase
 * Web Servers: Nginx (with Gunicorn or uWSGI)
 * Tools: Git, Mercurial
 
