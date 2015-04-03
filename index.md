@@ -35,7 +35,7 @@
     * Windows client with virtual printer driver 
     	* V1.0.0 ~ V2.5.2 : C++, MFC
     	* V3.0.0 ~ V3.2.1 : C++, C#, .Net Framework 4, <a href="https://code.google.com/p/chromiumembedded/" target="_blank">CEF</a>
-        * V4.0.0 (Under development) : C++, C#, .Net Framework 4.5
+        * V4.0.0 ~ V4.0.11 : C++, C#, .Net Framework 4
 <br /><br />
 * Personal projects
 	* <a href="https://github.com/leekchan/phPy" target="_blank">phPy</a> - A simple way to call legacy PHP functions from Python (2012)
