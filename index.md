@@ -38,6 +38,8 @@
         * V4.0.0 ~ : C++, C#, .Net Framework 4
 <br /><br />
 * Personal projects
+    * <a href="https://github.com/leekchan/accounting" target="_blank">accounting</a> - money and currency formatting for golang. (2015)
+    * <a href="https://github.com/leekchan/timeutil" target="_blank">timeutil</a> - useful extensions (Timedelta, Strftime, ...) to the golang's time package. (2015)
     * <a href="https://github.com/leekchan/gtf" target="_blank">gtf</a> - gtf is a useful set of Golang Template Functions. The goal of this project is implementing all built-in template filters of Django & Jinja2. (2015)
 	* <a href="https://github.com/leekchan/phPy" target="_blank">phPy</a> - A simple way to call legacy PHP functions from Python (2012)
 	* KUSearch - A simple search engine for Korea university students (2009) 
