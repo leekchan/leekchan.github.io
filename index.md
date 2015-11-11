@@ -14,8 +14,9 @@
 
 ## Skills
 * Languages: Python, Go, Javascript, Java, C, C++, C#
-* Web Frameworks: Django, Tornado
+* Web Frameworks: Django
 * Databases: MySQL, Memcached, Redis, Couchbase
+* Network Programming Libraries: gevent, Tornado
 * Web Servers: Nginx (with Gunicorn or uWSGI)
 * Tools: Git, Mercurial
 
@@ -57,7 +58,7 @@
 
 
 ## Interests
-* Building a large scale web service with Python and Django
+* Building a large scale web service with Python and Go
 * MySQL optimization techniques
 
 
