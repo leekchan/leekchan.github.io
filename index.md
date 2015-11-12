@@ -37,6 +37,9 @@
     	* V1.0.0 ~ V2.5.2 : C++, MFC
     	* V3.0.0 ~ V3.2.1 : C++, C#, .Net Framework 4, <a href="https://code.google.com/p/chromiumembedded/" target="_blank">CEF</a>
         * V4.0.0 ~ : C++, C#, .Net Framework 4
+    * TCP server for copy machines (authentication/payment)
+        * TCP server for legacy firmwares which do not support HTTP connection
+        * Python, gevent
 <br /><br />
 * Personal projects
     * <a href="https://github.com/leekchan/accounting" target="_blank">accounting</a> - money and currency formatting for golang. (2015)
