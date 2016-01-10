@@ -1,13 +1,12 @@
 # 이경찬 (Kyoung-chan Lee)
 
-* Software engineer
-* CTO at <a href="http://www.add2paper.com" target="_blank">Add2paper</a> (May 2012 – Present)
+* Software Engineer at <a href="http://path.com" target="_blank">Path</a> (January 2016 - Present)
+* CTO at <a href="http://www.add2paper.com" target="_blank">Add2paper</a> (May 2012 – December 2015)
 
 ## Links
 
 * <a href="https://github.com/leekchan/" target="_blank">Github</a>
 * <a href="http://blog.leekchan.com/" target="_blank">Blog</a>
-* <a href="http://add2paper.github.io/" target="_blank">Add2paper Engineering Blog</a>
 * <a href="https://www.facebook.com/leekchan" target="_blank">Facebook</a>
 * <a href="http://kr.linkedin.com/pub/kyoung-chan-lee/2a/499/34b" target="_blank">Linkedin</a>
 * <a href="https://twitter.com/kyoungchanlee" target="_blank">Twitter</a>
@@ -21,7 +20,7 @@
 * Tools: Git, Mercurial
 
 ## Experiences
-* CTO at <a href="http://www.add2paper.com" target="_blank">Add2paper</a> (May 2012 – Present)
+* CTO at <a href="http://www.add2paper.com" target="_blank">Add2paper</a> (May 2012 – December 2015)
     * Web application backend 
         * Technology stack : Python, Django, MySQL, Nginx, Gunicorn, Memcached, Celery, Redis, Supervisor (<a href="http://add2paper.github.io/2013/04/17/Add2paper-Technology-Stack/" target="_blank">Detailed post in Korean</a>)
     	* Management system for advertisers
