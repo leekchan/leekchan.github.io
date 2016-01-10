@@ -1,7 +1,6 @@
 # 이경찬 (Kyoung-chan Lee)
 
 * Software Engineer at <a href="http://path.com" target="_blank">Path</a> (January 2016 - Present)
-* CTO at <a href="http://www.add2paper.com" target="_blank">Add2paper</a> (May 2012 – December 2015)
 
 ## Links
 
