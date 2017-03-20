@@ -8,7 +8,6 @@
 * <a href="http://blog.leekchan.com/" target="_blank">Blog</a>
 * <a href="https://www.facebook.com/leekchan" target="_blank">Facebook</a>
 * <a href="http://kr.linkedin.com/pub/kyoung-chan-lee/2a/499/34b" target="_blank">Linkedin</a>
-* <a href="https://twitter.com/kyoungchanlee" target="_blank">Twitter</a>
 
 ## Skills
 * Languages: Python, Go, Javascript, Java, C, C++, C#
