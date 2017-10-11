@@ -1,300 +1,332 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<style>
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote {
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
-    font-size: 15px;
-    line-height: 18px;
-    color: #737373;
-    background-color: white;
-    margin: 10px 13px 10px 13px;
-}
-table {
-	margin: 10px 0 15px 0;
-	border-collapse: collapse;
-}
-td,th {	
-	border: 1px solid #ddd;
-	padding: 3px 10px;
-}
-th {
-	padding: 5px 10px;	
-}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <style>
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+            font-size: 15px;
+            line-height: 18px;
+            color: #737373;
+            background-color: white;
+            margin: 10px 13px 10px 13px;
+        }
+        
+        table {
+            margin: 10px 0 15px 0;
+            border-collapse: collapse;
+        }
+        
+        td,
+        th {
+            border: 1px solid #ddd;
+            padding: 3px 10px;
+        }
+        
+        th {
+            padding: 5px 10px;
+        }
+        
+        a {
+            color: #0069d6;
+        }
+        
+        a:hover {
+            color: #0050a3;
+            text-decoration: none;
+        }
+        
+        a img {
+            border: none;
+        }
+        
+        p {
+            margin-bottom: 9px;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #404040;
+            line-height: 36px;
+        }
+        
+        h1 {
+            margin-bottom: 18px;
+            font-size: 30px;
+        }
+        
+        h2 {
+            font-size: 24px;
+        }
+        
+        h3 {
+            font-size: 18px;
+        }
+        
+        h4 {
+            font-size: 16px;
+        }
+        
+        h5 {
+            font-size: 14px;
+        }
+        
+        h6 {
+            font-size: 13px;
+        }
+        
+        hr {
+            margin: 0 0 19px;
+            border: 0;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        blockquote {
+            padding: 13px 13px 21px 15px;
+            margin-bottom: 18px;
+            font-family: georgia, serif;
+            font-style: italic;
+        }
+        
+        blockquote:before {
+            content: "\201C";
+            font-size: 40px;
+            margin-left: -10px;
+            font-family: georgia, serif;
+            color: #eee;
+        }
+        
+        blockquote p {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 18px;
+            margin-bottom: 0;
+            font-style: italic;
+        }
+        
+        code,
+        pre {
+            font-family: Monaco, Andale Mono, Courier New, monospace;
+        }
+        
+        code {
+            background-color: #fee9cc;
+            color: rgba(0, 0, 0, 0.75);
+            padding: 1px 3px;
+            font-size: 12px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+        }
+        
+        pre {
+            display: block;
+            padding: 14px;
+            margin: 0 0 18px;
+            line-height: 16px;
+            font-size: 11px;
+            border: 1px solid #d9d9d9;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        
+        pre code {
+            background-color: #fff;
+            color: #737373;
+            font-size: 11px;
+            padding: 0;
+        }
+        
+        sup {
+            font-size: 0.83em;
+            vertical-align: super;
+            line-height: 0;
+        }
+        
+        * {
+            -webkit-print-color-adjust: exact;
+        }
+        
+        @media screen and (min-width: 914px) {
+            body {
+                width: 854px;
+                margin: 10px auto;
+            }
+        }
+        
+        @media print {
+            body,
+            code,
+            pre code,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                color: black;
+            }
+            table,
+            pre {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+    <title>이경찬 (Kyoung-chan Lee)</title>
 
-a {
-    color: #0069d6;
-}
-a:hover {
-    color: #0050a3;
-    text-decoration: none;
-}
-a img {
-    border: none;
-}
-p {
-    margin-bottom: 9px;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #404040;
-    line-height: 36px;
-}
-h1 {
-    margin-bottom: 18px;
-    font-size: 30px;
-}
-h2 {
-    font-size: 24px;
-}
-h3 {
-    font-size: 18px;
-}
-h4 {
-    font-size: 16px;
-}
-h5 {
-    font-size: 14px;
-}
-h6 {
-    font-size: 13px;
-}
-hr {
-    margin: 0 0 19px;
-    border: 0;
-    border-bottom: 1px solid #ccc;
-}
-blockquote {
-    padding: 13px 13px 21px 15px;
-    margin-bottom: 18px;
-    font-family:georgia,serif;
-    font-style: italic;
-}
-blockquote:before {
-    content:"\201C";
-    font-size:40px;
-    margin-left:-10px;
-    font-family:georgia,serif;
-    color:#eee;
-}
-blockquote p {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 18px;
-    margin-bottom: 0;
-    font-style: italic;
-}
-code, pre {
-    font-family: Monaco, Andale Mono, Courier New, monospace;
-}
-code {
-    background-color: #fee9cc;
-    color: rgba(0, 0, 0, 0.75);
-    padding: 1px 3px;
-    font-size: 12px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-pre {
-    display: block;
-    padding: 14px;
-    margin: 0 0 18px;
-    line-height: 16px;
-    font-size: 11px;
-    border: 1px solid #d9d9d9;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-}
-pre code {
-    background-color: #fff;
-    color:#737373;
-    font-size: 11px;
-    padding: 0;
-}
-sup {
-    font-size: 0.83em;
-    vertical-align: super;
-    line-height: 0;
-}
-* {
-	-webkit-print-color-adjust: exact;
-}
-@media screen and (min-width: 914px) {
-    body {
-        width: 854px;
-        margin:10px auto;
-    }
-}
-@media print {
-	body,code,pre code,h1,h2,h3,h4,h5,h6 {
-		color: black;
-	}
-	table, pre {
-		page-break-inside: avoid;
-	}
-}
-</style>
-<title>이경찬 (Kyoung-chan Lee)</title>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-18244267-7']);
+        _gaq.push(['_trackPageview']);
 
-  <script type="text/javascript">
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-18244267-7']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-  </script>
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
 
 </head>
+
 <body>
-<h1>이경찬 (Kyoung-chan Lee)</h1>
+    <h1>이경찬 (Kyoung-chan Lee)</h1>
 
-<ul>
-<li>Software Engineer at <a href="http://path.com" target="_blank">Path</a> (January 2016 - Present)</li>
-</ul>
+    <ul>
+        <li>Software Engineer at <a href="https://line.me" target="_blank">LINE</a> (May 2017 - Present)</li>
+    </ul>
 
+    <h2>Links</h2>
 
-<h2>Links</h2>
+    <ul>
+        <li><a href="https://github.com/leekchan/" target="_blank">Github</a></li>
+        <li><a href="http://kr.linkedin.com/pub/kyoung-chan-lee/2a/499/34b" target="_blank">Linkedin</a></li>
+        <li><a href="https://www.facebook.com/leekchan" target="_blank">Facebook</a></li>
+    </ul>
 
-<ul>
-<li><a href="https://github.com/leekchan/" target="_blank">Github</a></li>
-<li><a href="http://blog.leekchan.com/" target="_blank">Blog</a></li>
-<li><a href="https://www.facebook.com/leekchan" target="_blank">Facebook</a></li>
-<li><a href="http://kr.linkedin.com/pub/kyoung-chan-lee/2a/499/34b" target="_blank">Linkedin</a></li>
-</ul>
+    <h2>Experiences</h2>
 
+    <ul>
+        <li>Software Enginner at <a href="https://path.com" target="_blank">Path</a> (January 2016 – May 2017)
 
-<h2>Skills</h2>
+            <ul>
+                <li>Scalable API servers that handle 10 million monthly active users.
+                    <ul>
+                        <li>Technology stack: Python, uWSGI, Memcached, Redis, twemproxy, MongoDB, gevent, etc.
+                            <br />
+                            <br />
+                        </li>  
+                    </ul>
+                </li>
+            </ul>
+        </li>
 
-<ul>
-<li>Languages: Python, Go, Javascript, Java, C, C++, C#</li>
-<li>Web Frameworks: Django</li>
-<li>Databases: MySQL, Memcached, Redis, Couchbase</li>
-<li>Network Programming Libraries: gevent, Tornado</li>
-<li>Web Servers: Nginx (with Gunicorn or uWSGI)</li>
-<li>Tools: Git, Mercurial</li>
-</ul>
+        <li>CTO at <a href="http://www.add2paper.com" target="_blank">Add2paper</a> (May 2012 – December 2015)
 
+            <ul>
+                <li>Web application backend
 
-<h2>Experiences</h2>
+                    <ul>
+                        <li>Technology stack: Python, Django, MySQL, Nginx, Gunicorn, Memcached, Celery, Redis, Supervisor (<a href="http://add2paper.github.io/2013/04/17/Add2paper-Technology-Stack/" target="_blank">Detailed post in Korean</a>)</li>
+                        <li>Management system for advertisers</li>
+                        <li>Billing system for printer managers</li>
+                        <li>API backend for iOS/Android Application</li>
+                        <li>API backend for windows client</li>
+                    </ul>
+                </li>
+                <li>Log aggregation backend
 
-<ul>
-<li>CTO at <a href="http://www.add2paper.com" target="_blank">Add2paper</a> (May 2012 – December 2015)
+                    <ul>
+                        <li>A simple log aggregation backend built with Google App Engine, Python, webapp2</li>
+                        <li>This backend receives and saves all logs generated from Add2paper mobile applications and windows client.</li>
+                    </ul>
+                </li>
+                <li><a href="http://www.add2paper.com/m_api/download/ios/" target="_blank">iOS</a> &amp; <a href="http://www.add2paper.com/m_api/download/android/" target="_blank">Android</a> Application
 
-<ul>
-<li>Web application backend 
+                    <ul>
+                        <li>Hybrid application using HTML / CSS / Javascript and partial native codes</li>
+                    </ul>
+                </li>
+                <li>Windows client with virtual printer driver
 
-<ul>
-<li>Technology stack : Python, Django, MySQL, Nginx, Gunicorn, Memcached, Celery, Redis, Supervisor (<a href="http://add2paper.github.io/2013/04/17/Add2paper-Technology-Stack/" target="_blank">Detailed post in Korean</a>)</li>
-<li>Management system for advertisers</li>
-<li>Billing system for printer managers</li>
-<li>API backend for iOS/Android Application</li>
-<li>API backend for windows client</li>
-</ul>
-</li>
-<li>Log aggregation backend 
+                    <ul>
+                        <li>V1.0.0 ~ V2.5.2: C++, MFC</li>
+                        <li>V3.0.0 ~ V3.2.1: C++, C#, .Net Framework 4, <a href="https://code.google.com/p/chromiumembedded/" target="_blank">CEF</a></li>
+                        <li>V4.0.0 ~: C++, C#, .Net Framework 4</li>
+                    </ul>
+                </li>
+                <li>TCP server for copy machines (authentication/payment)
 
-<ul>
-<li>A simple log aggregation backend built with Google App Engine, Python, webapp2</li>
-<li>This backend receives and saves all logs generated from Add2paper mobile applications and windows client.</li>
-</ul>
-</li>
-<li><a href="http://www.add2paper.com/m_api/download/ios/" target="_blank">iOS</a> &amp; <a href="http://www.add2paper.com/m_api/download/android/" target="_blank">Android</a> Application 
+                    <ul>
+                        <li>TCP server for legacy firmwares which do not support HTTP connection</li>
+                        <li>Python, gevent
+                            <br />
+                            <br />
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Personal projects
 
-<ul>
-<li>Hybrid application using HTML / CSS / Javascript and partial native codes</li>
-</ul>
-</li>
-<li>Windows client with virtual printer driver
+            <ul>
+                <li><a href="https://github.com/leekchan/accounting" target="_blank">accounting</a> - money and currency formatting for golang. (2015)</li>
+                <li><a href="https://github.com/leekchan/timeutil" target="_blank">timeutil</a> - useful extensions (Timedelta, Strftime, ...) to the golang's time package. (2015)</li>
+                <li><a href="https://github.com/leekchan/gtf" target="_blank">gtf</a> - gtf is a useful set of Golang Template Functions. The goal of this project is implementing all built-in template filters of Django & Jinja2. (2015)</li>
+                <li><a href="https://github.com/leekchan/phPy" target="_blank">phPy</a> - A simple way to call legacy PHP functions from Python (2012)</li>
+                <li>KUSearch - A simple search engine for Korea university students (2009)
 
-<ul>
-<li>V1.0.0 ~ V2.5.2 : C++, MFC</li>
-<li>V3.0.0 ~ V3.2.1 : C++, C#, .Net Framework 4, <a href="https://code.google.com/p/chromiumembedded/" target="_blank">CEF</a></li>
-<li>V4.0.0 ~ : C++, C#, .Net Framework 4</li>
-</ul>
-</li>
-<li>TCP server for copy machines (authentication/payment)
+                    <ul>
+                        <li>Crawler: Python, Beautifulsoap</li>
+                        <li>Indexer: Python, Whoosh</li>
+                        <li>Frontend: Python, Django</li>
+                    </ul>
+                </li>
+                <li>KUSearch lite - GAE version of KUSearch (2010)
 
-<ul>
-<li>TCP server for legacy firmwares which do not support HTTP connection</li>
-<li>Python, gevent
-<br /><br /></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Personal projects
+                    <ul>
+                        <li>Google App Engine, Python, Webapp2, Datastore</li>
+                        <li>It builds a simple inverted index using n-gram tokenizer and GAE datastore</li>
+                    </ul>
+                </li>
+                <li><a href="https://code.google.com/p/liteweb-python-webframework/source/browse/#svn%2Ftrunk%2Fliteweb" target="_blank">liteweb</a> - A light weight Python ORM Web Framework (2010)</li>
+            </ul>
+        </li>
+    </ul>
 
-<ul>
-<li><a href="https://github.com/leekchan/accounting" target="_blank">accounting</a> - money and currency formatting for golang. (2015)</li>
-<li><a href="https://github.com/leekchan/timeutil" target="_blank">timeutil</a> - useful extensions (Timedelta, Strftime, ...) to the golang's time package. (2015)</li>
-<li><a href="https://github.com/leekchan/gtf" target="_blank">gtf</a> - gtf is a useful set of Golang Template Functions. The goal of this project is implementing all built-in template filters of Django & Jinja2. (2015)</li>
-<li><a href="https://github.com/leekchan/phPy" target="_blank">phPy</a> - A simple way to call legacy PHP functions from Python (2012)</li>
-<li>KUSearch - A simple search engine for Korea university students (2009)
+    <h2>Education</h2>
 
-<ul>
-<li>Crawler: Python, Beautifulsoap</li>
-<li>Indexer: Python, Whoosh</li>
-<li>Frontend: Python, Django</li>
-</ul>
-</li>
-<li>KUSearch lite - GAE version of KUSearch (2010)
+    <ul>
+        <li>BS in Electrical and Electronics Engineering, Korea University</li>
+    </ul>
 
-<ul>
-<li>Google App Engine, Python, Webapp2, Datastore</li>
-<li>It builds a simple inverted index using n-gram tokenizer and GAE datastore</li>
-</ul>
-</li>
-<li><a href="https://code.google.com/p/liteweb-python-webframework/source/browse/#svn%2Ftrunk%2Fliteweb" target="_blank">liteweb</a> - A light weight Python ORM Web Framework (2010)</li>
-</ul>
-</li>
-</ul>
+    <h2>Languages</h2>
 
-
-<h2>Education</h2>
-
-<ul>
-<li>BS in Electrical and Electronics Engineering, Korea University</li>
-</ul>
-
-
-<h2>Interests</h2>
-
-<ul>
-<li>Building a large scale web service with Python and Go</li>
-<li>MySQL optimization techniques</li>
-</ul>
-
-
-<h2>Languages</h2>
-
-<ul>
-<li>Korean: Native</li>
-<li>English: Working proficiency</li>
-</ul>
+    <ul>
+        <li>Korean: Native</li>
+        <li>English: Working proficiency</li>
+    </ul>
 
 </body>
+
 </html>
